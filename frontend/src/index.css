@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.pencil-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #fff;
+  border: 2px solid #ddd;
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  z-index: 10;
+}
+
+.pencil-button:hover {
+  background-color: #f0f0f0;
+}
+
